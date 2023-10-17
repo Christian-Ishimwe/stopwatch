@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div.container{
+    width: 50vw;
+    min-height: 30vh;
+    background-color: black;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.timer {
+    color: #fff;
+    font-size: 40px;
+    font-family: sans-serif
+}
+div.timer span{
+    color: green;
+   
+}
+div.control{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin: 10px auto;
+}
+div.control button{
+    cursor: pointer;
+    padding: 5px 10px;
+}
